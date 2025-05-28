@@ -1,6 +1,5 @@
 # Movie-Box-Office-Revenue-Prediction
 ✅ Objective
-
   1.To build a machine learning-based system that predicts the potential box office revenue of a movie.
   
   2.To provide reverse suggestions for budget and runtime based on a target revenue.
