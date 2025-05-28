@@ -1,5 +1,5 @@
 # Movie-Box-Office-Revenue-Prediction
-✅ Objective
+**✅ Objective**
 
   1.To build a machine learning-based system that predicts the potential box office revenue of a movie.
   
@@ -8,7 +8,7 @@
   3.To develop an interactive and user-friendly web interface using Streamlit.
 
   
-📊 Key Features
+**📊 Key Features**
 
   1.Predicts revenue using two regression models: Random Forest and XGBoost.
   
@@ -19,14 +19,14 @@
   4.Web application built using Streamlit for real-time predictions and visualization.
 
   
-🧠 Machine Learning Approach
+**🧠 Machine Learning Approach**
 
   1.Random Forest Regressor: Ensemble of decision trees to reduce variance and improve accuracy.
   
   2.XGBoost Regressor: Advanced boosting algorithm optimized for performance and speed.
 
   
-🧹 Data Preprocessing
+**🧹 Data Preprocessing**
 
   1.Source Dataset: movies_metadata.csv from TMDb via Kaggle.
   
@@ -38,7 +38,7 @@
       5.Scaled numerical features using StandardScaler.
 
       
-🧪 Model Evaluation
+**🧪 Model Evaluation**
 
   1.Train-Test Split: 80-20
   
@@ -47,7 +47,7 @@
   3.Predicted revenue values are exponentially transformed to return to actual scale from log.
 
 
-🖥️ Web Application (Streamlit)
+**🖥️ Web Application (Streamlit)**
 
   1.Interactive form to input movie features.
   
@@ -58,7 +58,7 @@
   4.Reverse input section allows the user to enter a target revenue and receive suggested feature values.
   
 
-🔁 Reverse Prediction Functionality
+**🔁 Reverse Prediction Functionality**
 
   1.Accepts target revenue and genre.
   
@@ -67,7 +67,7 @@
   3.Standardizes inputs before passing them to the model pipeline.
 
 
-🔧 Tech Stack
+**🔧 Tech Stack**
 
   1.Python 3.10+
   
@@ -82,7 +82,7 @@
   6.Matplotlib, Seaborn – Visualization (for analysis phase).
   
 
-📈 Results
+**📈 Results**
 
   1.Both models performed well, with XGBoost slightly outperforming Random Forest in RMSE.
   
@@ -91,7 +91,7 @@
   3.Reverse prediction is a novel, practical feature for strategic movie planning.
   
 
-🧭 System Architecture
+**🧭 System Architecture**
 
   1.User Input (via Streamlit UI)
   
@@ -104,7 +104,7 @@
   5.Optional Reverse Suggestion (based on target revenue)
   
 
-🌱 Future Enhancements
+**🌱 Future Enhancements**
 
   1.Add features like cast popularity, director ratings, release month, and marketing spend.
   
