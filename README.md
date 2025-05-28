@@ -31,10 +31,15 @@
   1.Source Dataset: movies_metadata.csv from TMDb via Kaggle.
   
   2.Steps involved:
+  
       1.Dropped rows with missing critical values (budget, revenue, etc.).
+      
       2.Converted features like budget, runtime, popularity to numeric.
+      
       3.Applied log transformation to budget and revenue to normalize skewed data.
+      
       4.Encoded genres using LabelEncoder.
+      
       5.Scaled numerical features using StandardScaler.
 
       
